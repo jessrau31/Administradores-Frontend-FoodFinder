@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Baloo2';
+    src: url('/fonts/baloo-2/Baloo2-Regular.ttf');
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #E7DEFB, #04C4D9 );
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+    font-size: 30px;
+    color: #F27294;
+  }
+
+  .menú {
+    margin-right: auto;
+  }
+  
+  .derecha {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .notificaciones, .perfiles {
+    margin-left: 1000px;
+  }
+
+  .perfiles {
+
+  }
+
+  .texto {
+    font-size: 50px;
+    color: #F27294;
+    font-family: 'Baloo2';
+  }
+
+  #logo{
+    width: 280px;
+    height: 400px;
+    margin-top: 50px; 
+}
+
