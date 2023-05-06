@@ -1,0 +1,275 @@
+body {
+    font-family: 'cabin';
+    background: linear-gradient(206deg, white 0, #A79BF2 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+select {
+    font-weight: bold;
+    font-family: 'calibri';
+}
+
+#menu {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    width: 63px;
+    height: 111%;
+    margin: 0;
+    z-index: 10;
+}
+
+#secciones-cabecera {
+    display: none;
+}
+
+#cabecera-menu {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    /*border-bottom: 2px solid #5BC0EB;*/
+}
+
+.titulos-cabecera {
+    color: #444444;
+    font-size: 14px;
+}
+
+h6 {
+    word-break: break-all;
+    white-space: normal;
+}
+
+.subsecciones {
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 6px;
+}
+
+.crud {
+    padding-left: 35px;
+}
+
+.control {
+    margin: 2px 0;
+    cursor: pointer;
+    color: #04C4D9;
+    font-weight: bold;
+}
+
+#logo {
+    width: 70%;
+    display: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#cerrar, #abrir {
+    font-size: 25px;
+    cursor: pointer;
+    color: #F27294;
+}
+
+#cerrar {
+    display: none;
+}
+
+#contenedor {
+    min-height: 750px;
+    position: relative;
+}
+
+.fondo-azul {
+    background: rgba(91, 192, 235, 0.5);
+    padding: 2px 0;
+    padding-left: 10px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.acomodar {
+    display: flex;
+}
+
+.radius {
+    border-radius: 8px;
+}
+
+h4 {
+    color: #444;
+}
+
+.botonesMotorista {
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo-detalleOrden, .titulo-infoCliente, .titulo-infoEnvio {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    z-index: 3;
+    background-color: white;
+    font-weight: bold;
+}
+
+.informacion-cliente, .informacion-envio {
+    position: relative;
+    margin: 35px 10px 5px 10px;
+    z-index: 2;
+}
+
+#contenido-ordenes {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+}
+
+.gris {
+    color: #555;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.titulo-modal {
+    font-weight: bold;
+}
+
+.subtitulo-modal, .parrafo-modal {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+}
+
+.subtitulo-modal {
+    font-size: 17px;
+}
+
+.check {
+    font-size: 50px;
+    color: #9BC53D;
+}
+
+.error {
+    font-size: 50px;
+    color: #BD2024;
+}
+
+.advertencia {
+    font-size: 50px;
+    color: #FDE74C;
+}
+
+#section-principal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imagen-principal {
+    width: 250px;
+    margin-top: 150px;
+}
+
+#titulo-principal {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #444;
+}
+
+.vistaPrevia {
+    height: 200px;
+    width: 200px;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+
+.vistaPrevia-banner {
+    height: 200px;
+    width: 500px;
+    border-width: 4px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+
+.contenedor-eliminar {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.cerrar-sesion {
+    font-size: 20px;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.cerrar-sesion:hover {
+    text-decoration: none;
+}
+
+
+.sections {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    left: 80px;
+    bottom: 20px;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+footer {
+    border: 1px solid white;
+    width: 100%;
+    height: 160px;
+    background-color: white;
+}
+
+#redes-footer {
+    margin: 25px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 50px;
+}
+
+hr {
+    border: 1px solid #333333;
+}
+
+#copyright {
+    font-weight: 700;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    #copyright {
+        font-size: 18px;
+    }  
+}
+
+@media screen and (min-width: 1172px) {
+    #copyright {
+        font-size: 22px;
+    }
+}
